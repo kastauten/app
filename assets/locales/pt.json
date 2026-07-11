@@ -14,7 +14,7 @@
   },
   "and": "e",
   "app": {
-    "install": "Instalar como Aplicativo",
+    "install": "Instalar como App",
     "loading": {
       "": "Carregando…",
       "cancel": "Cancelar carregamento?"
@@ -30,15 +30,10 @@
       "name": "Nome da Campanha {0}",
       "reset": "Reiniciar Campanha"
     },
-    "character": "Folhas de Personagem",
-    "enhancements": "Cálculo de Melhoramento",
-    "items": "Visão Geral das Cartas de Item",
-    "map": {
-      "": "Mapa do Mundo"
-    },
-    "party": "Folha de Grupo/Campanha",
+    "character": "Fichas de Personagem",
+    "party": "Ficha de Grupo/Campanha",
     "resources": "Tabela de Recursos",
-    "sheet": "Folha de Gestão da Campanha Global",
+    "sheet": "Ficha de Gestão da Campanha Global",
     "trials": {
       "automation": "O efeito dessa carta é aplicado automaticamente!"
     }
@@ -49,8 +44,7 @@
       "hint": "O efeito dessa carta é aplicado automaticamente!"
     },
     "deck": {
-      "current": "Atual",
-      "finished": "Finalizado"
+      "current": "Atual"
     }
   },
   "game": {
