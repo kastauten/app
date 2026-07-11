@@ -233,11 +233,13 @@
           "": "Open Box %game.characterIcon.{0}%",
           "itemDesign": {
             "": "Gain \"%data.items.{1}-{0}%\" design (Item {0})",
-            "gold": "Item Design Deck deplected, gain 15 collective gold instead"
+            "gold": "Item Design Deck deplected, gain 15 collective gold instead",
+            "info": "Gain one random item design."
           },
           "randomScenario": {
             "": "Unlock \"{1}\" %data.scenarioNumber:{0}%",
-            "gold": "Random Scenario Design Deck deplected, gain 15 collective gold instead"
+            "gold": "Random Scenario Deck deplected, gain 15 collective gold instead",
+            "info": "Gain one random side scenario."
           }
         },
         "unlockPQ": "Unlock Personal Quest {0}"
@@ -1348,7 +1350,7 @@
             "": "Random Side Scenario",
             "alt": "No Random Side Scenarios left",
             "altFh": "No Random Side Scenarios left",
-            "altGh2e": "No Random Side Scenarios left",
+            "altGh2e": "No Random Side Scenarios left, gain 15 collective gold (manual)",
             "result": ": {1} %data.scenarioNumber:{0}%"
           },
           "randomScenarioFh": {
@@ -2026,6 +2028,8 @@
         }
       },
       "campaignSticker": "Campaign Sticker",
+      "characterRetirement": "The character with the \"%data.personalQuest.{0}.{1}%\" personal quest retires during the next city phase.",
+      "characterRetirementSkipEvents": "The character with the \"%data.personalQuest.{0}.{1}%\" personal quest retires during the next city phase, but does not add the normal events for their class's retirement.",
       "chooseItem": "Choose to gain one of the following",
       "chooseLocation": "Choose to unlock only one of the following",
       "collectiveGold": "{0} collective gold",
@@ -2067,7 +2071,10 @@
       "prosperity": "{0} prosperity",
       "randomItemBlueprint": "Gain one random item blueprint",
       "randomItemBlueprints": "Add items %game.itemFh.{0}% to %game.itemFh.{1}% to the random item blueprint deck.",
+      "randomItemDesign": "Gain one random item design",
+      "randomItemDesigns": "Add items %game.itemFh.{0}% to %game.itemFh.{1}% to the random item design deck.",
       "randomItems": "Each character gains one random item ({0}-{1})",
+      "removeItem": "Return \"%data.items.{1}-{0}%\" %game.itemFh.{0}% to the unavailable item supply.",
       "randomSideScenario": "Drawn one random side scenario.",
       "removeEvent": {
         "boat": "Remove event {0} from the boat deck",
@@ -3052,6 +3059,10 @@
     },
     "requires": "Requires:",
     "requiresOne": "Requires one of:",
+    "roundClock": {
+      "": "Round Clock",
+      "hint": "Show the time for the round and in-between next to the draw button."
+    },
     "scenarioNumberInput": {
       "": "Scenario Number Input"
     },
